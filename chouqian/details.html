@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <title>抽签详情</title>
+    <link rel="stylesheet" href="details.css">
+    <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    <script src="details.js"></script>
+</head>
+
+<body style="margin: 0 auto; background-repeat: no-repeat;background-size: cover; background-attachment:fixed;  width: 100%;  height: auto;" background="sujcai.png">
+    <div class="login">
+        <label id="l1">抽 签 系 统</label>
+
+        <div class="box">
+
+        
+        <div class="l2">
+            <container id="container">
+                <label id="p1">抽签详情</label>
+            </container>
+        </div>
+
+        <h1 id="p4">已抽签人数:</h1>
+
+        <h2 id="p5">最大中奖人数:</h2>
+
+        <h2 id="p6">剩余中奖名额:</h2>
+
+        <h2 id="p7">剩余参与名额:</h2>
+
+        <h2 id="p2">发起人:</h2>
+
+        <h3 id="h1"></h3>>
+
+        <h2 id="p3">抽签密令:</h2>
+
+        <h3 id="h2"></h3>>
+
+        <h2 id="p8">抽签主题:</h2>
+    </div>
+
+    </div>
+    <button id="b1" style="border-radius: 5px" type="button" onclick="refresh()">刷新</button>
+    <button id="b2" style="border-radius: 5px" type="button" onclick="end()">结束抽签</button>
+    <a href="choice.html"><button id="b3" style="border-radius: 5px" type="button" onclick="back()">返回主界面</button></a>
+</body>
+
+</html>

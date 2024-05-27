@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* todolist标签为块状显示 */
+label {
+    display: block;
+}
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+.choice {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    line-height: 200px;
+    z-index: 2;
+}
+/* 抽签系统字体 */
+#l1 {
+    color: darkturquoise;
+    font-size: 100px;
+    text-align: center;
+    z-index: 1;
+    position: center;
+}
+/* 注册按钮 */
+#a1 {
+    position: fixed;
+    left: 22%;
+    top: 300px;
+    border-width: 1px;
+    border-radius:3px;
+    outline:none;
+    background-color: cyan;
+    cursor: pointer;
+    height: 250px;
+    width: 400px;
+    z-index: 1;
+    font-size: 75px;
+    font-family: 微软雅黑, serif;
+}
+/*登录按钮*/
+#a2 {
+    position: fixed;
+    left: 64%;
+    top: 300px;
+    border-width: 1px;
+    border-radius:3px;
+    outline:none;
+    background-color: cyan;
+    cursor: pointer;
+    height: 250px;
+    width: 400px;
+    z-index: 1;
+    font-size: 75px;
+    font-family: 微软雅黑, serif;
+}
+
+#text{
+    position: fixed;
+    left: 38%;
+    top: 320px;
+    width: 200px;
+    height: 35px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+#canvas{
+    border: 3px solid #cccccc;
+    border-radius: 5px;
+    position: fixed;
+    left: 55%;
+    top: 320px;
+    width: 100px;
+    height:35px;
+    z-index: 1;
+    display: none;
+}
+#b1{
+    /* 矩形 5 */
+    position: absolute;
+    width: 240px;
+    height: 84px;
+    left: 2%;
+    right: 330px;
+    top: 50px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}

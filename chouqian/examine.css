@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* todolist标签为块状显示 */
+label {
+    display: block;
+}
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+.login {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    line-height: 200px;
+    z-index: 2;
+}
+/* 抽签系统字体 */
+#l1 {
+    color: darkturquoise;
+    font-size: 100px;
+    text-align: center;
+    z-index: 1;
+    position: center;
+}
+#p1{
+    top:160px;
+    left:30.5%;
+    position: fixed;
+
+    font-size:36px;
+    color: darkorange;
+}
+#contain p{
+    top:160px;
+    left:45%;
+    position: fixed;
+
+    font-size:36px;
+    color: grey;
+}
+#b2{
+    /* 矩形 5 */
+    position: fixed;
+    width: 216px;
+    height: 84px;
+    left: 55%;
+    right: 200px;
+    top: 550px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
+#b1{
+    /* 矩形 5 */
+    position: fixed;
+    width: 216px;
+    height: 84px;
+    left: 35%;
+    right: 200px;
+    top: 550px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
+.body-middle1 {
+    top:-20px;
+    position: absolute;
+    left: 42%;
+    height:50px;
+    width: 300px;
+    font-size: 25px;
+
+}
+.body-middle1 li{
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: khaki;
+    border: 5px solid #729dff;;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;" />
+    <title>查看我的抽签</title>
+    <link rel="stylesheet" href="examine.css">
+    <script src="https://lib.sinaapp.com/js/jquery/2.0.2/jquery-2.0.2.min.js"></script>
+    <script src="examine.js"></script>
+</head>
+<body style="margin: 0 auto; background-repeat: no-repeat;background-size: cover; background-attachment:fixed;" background="sujcai.png">
+<div class="choice">
+    <label id="l1">抽 签 系 统</label>
+    <div class="l2">
+        <container id="container">
+            <label id="p1">我的抽签</label>
+            <div class="body-middle1"  style="margin-top: 235px;">
+                 <div>
+                         <ul id="u1">
+
+                         </ul>
+                 </div>
+            </div>
+        </container>
+    </div>
+    <button id="b1" style="border-radius: 5px" type="button" onclick="refresh()">刷新</button>
+    <button id="b2" style="border-radius: 5px"  type="button" onclick="javascript:history.back(-1);">返回</button>
+</div>
+</body>
+</html>

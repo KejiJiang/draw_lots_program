@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (min-width: 640px) {
+    /*大屏幕*/
+    .login-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto auto auto;
+    }
+
+    .details-container {
+        grid-column: 1/4;
+        grid-row: 2/4;
+    }
+}
+/* todolist标签为块状显示 */
+.big-box {
+    width: 100%;
+    height: auto;
+}
+label {
+    display: block;
+}
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+.login {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    line-height: 200px;
+    z-index: 2;
+}
+/* 抽签系统字体 */
+
+#l1 {
+    color: darkturquoise;
+    font-size: 55px;
+    text-align: center;
+    z-index: 1;
+    position: center;
+}
+#div1{
+
+    margin-top: 5px;
+    width: 800px;
+    border-bottom: 5px solid #44443c;
+    margin-left: 530px;
+}
+#p1{
+    top:160px;
+    left:30.5%;
+    position: fixed;
+
+    font-size:36px;
+    color: grey;
+}
+#contain p{
+    top:160px;
+    left:45%;
+    position: fixed;
+
+    font-size:36px;
+    color: grey;
+}
+#p4{
+    top:360px;
+    left:30.5%;
+    position: fixed;
+
+    font-size:36px;
+    color: darkorange;
+}
+#p5{
+    top:360px;
+    left:52%;
+    position: fixed;
+
+    font-size:36px;
+    color: chocolate;
+}
+#p6{
+    top:480px;
+    left:30.5%;
+    position: fixed;
+
+    font-size:36px;
+    color: darkorange;
+}
+#p7{
+    top:480px;
+    left:52%;
+    position: fixed;
+
+    font-size:36px;
+    color: chocolate;
+}
+#p2{
+    top:240px;
+    left:30.5%;
+    position: fixed;
+    word-wrap: break-word;
+    font-size:36px;
+    color: darkorange;
+}
+#p3{
+    top:240px;
+    left:52%;
+    position: fixed;
+
+    font-size:36px;
+    color: chocolate;
+}
+#p8{
+    top:160px;
+    left:52%;
+    position: fixed;
+
+    font-size:36px;
+    color: chocolate;
+}
+#b1{
+    /* 矩形 5 */
+    position: fixed;
+    width: 216px;
+    height: 84px;
+    left: 10%;
+    right: 200px;
+    top: 500px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
+#b2{
+    /* 矩形 5 */
+    position: fixed;
+    width: 216px;
+    height: 84px;
+    left:80%;
+    top: 350px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
+#b3{
+    /* 矩形 5 */
+    position: fixed;
+    width: 216px;
+    height: 84px;
+    left:80%;
+    top: 550px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
+/*已中奖*/
+.award-people {
+    position: absolute;
+    left: 39%;
+    right:52%;
+    width: 10%;
+    font-size: 25px;
+}
+.award-people li{
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: khaki;
+    border: 5px solid darkorange;
+}
+/*未中奖 */
+.noaward-people{
+    position: absolute;
+    left: 61%;
+    right:39%;
+    width: 10%;
+    font-size: 25px;
+
+}
+.noaward-people li{
+    margin-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: khaki;
+    border: 5px solid #729dff;;
+}
+.box{
+    /* 矩形 4 */
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    left: 30%;
+    top: 210px;
+    box-sizing: border-box;
+
+
+    background: rgb(209, 209, 209);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+;
+
+}
+#h1{
+    top:295px;
+    left:30.5%;
+    position: fixed;
+    word-wrap: break-word;
+    font-size:36px;
+    color: darkorange;
+}
+#h2{
+    top:295px;
+    left:52%;
+    position: fixed;
+
+    font-size:36px;
+    color: chocolate;
+}

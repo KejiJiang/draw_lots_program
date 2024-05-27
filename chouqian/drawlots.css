@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* todolist标签为块状显示 */
+
+label {
+    display: block;
+}
+/* 按钮 */
+button {
+    cursor: pointer;
+}
+.login {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    color: aliceblue;
+    line-height: 200px;
+    z-index: 2;
+}
+/* 抽签系统字体 */
+#l1 {
+    color: darkturquoise;
+    font-size: 55px;
+    text-align: center;
+    z-index: 1;
+    position: center;
+}
+.box{
+    /* 矩形 4 */
+    position: absolute;
+    width: 561px;
+    height: 666px;
+    left: 35%;
+    top: 100px;
+    box-sizing: border-box;
+
+
+    background: rgb(209, 209, 209);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   ;
+
+}
+#n1{
+    /* 抽签主题 */
+    position: absolute;
+    width: 300px;
+    height: 84px;
+    left: 7%;
+    right: 225px;
+    top: 47px;
+    bottom: 220px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: 微软雅黑;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+}
+#n2{
+    /* 填写人数 */
+    position: absolute;
+    width: 300px;
+    height: 84px;
+    left: 7%;
+    right: 225px;
+    top: 120px;
+    bottom: 220px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: 微软雅黑;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+#n3{
+    /* 中奖人数 */
+    position: absolute;
+    width: 300px;
+    height: 84px;
+    left: 7%px;
+    right: 225px;
+    top: 193px;
+    bottom: 220px;
+
+
+    color: rgb(0, 0, 0);
+    font-family: 微软雅黑;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+#k1{
+    /* 矩形 9 */
+    position: absolute;
+    width: 189px;
+    height: 60px;
+    left: 50.2%;
+    right: 189px;
+    top: 25px;
+    bottom: 171.5px;
+
+
+    background: rgb(247, 247, 247);
+
+    border-radius:10px;
+    outline:none;
+    font-size: 38px;
+}
+#k2{
+    /* 矩形 9 */
+    position: absolute;
+    width: 189px;
+    height: 60px;
+    left: 50.2%;
+    right: 189px;
+    top: 100px;
+    bottom: 171.5px;
+
+
+    background: rgb(247, 247, 247);
+
+    border-radius:
+            10px;
+    outline:none;
+    font-size: 38px;
+}
+#k3{
+    /* 矩形 9 */
+    position: absolute;
+    width: 189px;
+    height: 60px;
+    left: 50.2%;
+    right: 189px;
+    top: 175px;
+    bottom: 171.5px;
+
+
+    background: rgb(247, 247, 247);
+
+    border-radius:
+            10px;
+    outline:none;
+    font-size: 38px;
+}
+#b1{
+    /* 矩形 5 */
+    position: absolute;
+    width: 200px;
+    height: 84px;
+    left: 7%;
+    right: 330px;
+    top: 500px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
+#b2{
+    /* 矩形 5 */
+    position: absolute;
+    width: 200px;
+    height: 84px;
+    left: 60%;
+    right: 70px;
+    top: 500px;
+    bottom: 78px;
+    font-size: 28px;
+    background: rgb(255, 255, 255);
+}
